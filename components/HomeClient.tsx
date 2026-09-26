@@ -6,7 +6,6 @@ import { ArrowDownRight, Dumbbell } from "lucide-react";
 import { Workout } from "@/lib/types";
 import { heroImage } from "@/lib/media";
 import WorkoutLibrary from "./WorkoutLibrary";
-import Footer from "./Footer";
 
 export default function HomeClient({ workouts }: { workouts: Workout[] }) {
   return (
@@ -46,7 +45,6 @@ export default function HomeClient({ workouts }: { workouts: Workout[] }) {
 
         <WorkoutLibrary workouts={workouts} />
       </main>
-      <Footer />
     </>
   );
 }
