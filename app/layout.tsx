@@ -6,7 +6,7 @@ import { StoreProvider } from "@/components/StoreProvider";
 import { ToastProvider } from "@/components/ToastProvider";
 
 export const metadata: Metadata = {
-  title: "FitLog — Workout Library",
+  title: "FitLog",
   description: "Train with intent. Log every set.",
 };
 
